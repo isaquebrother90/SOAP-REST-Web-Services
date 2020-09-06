@@ -14,3 +14,5 @@ def insere():
     r = requests.post('https://jsonplaceholder.typicode.com/posts/', json=posts)
     print(r.status_code)
     print(r.json())        
+
+    consulta()
